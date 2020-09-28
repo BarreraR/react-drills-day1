@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+div#application-root {
+    max-width: 400px;
+    margin: auto;
+}
+
+section#Education>p, section#works>p, section#Contact-section>p{
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+header{
+    margin-top: 20px;
+}
+
+header, section#Contact-section {
+    text-align: center;
+}
+
+@media all and (max-width: 400px){
+    header, section#Contact-section {
+        text-align: left;
+    }
+}
